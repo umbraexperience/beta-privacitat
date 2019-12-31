@@ -5,24 +5,47 @@
     </h1>
     <div class="textspace">
       <h3 class="text">
-        The company, Umbra, Carrer Sant Antoni 1 Edifici Kropotkin, 1ª Planta
-        Factoria Cultural Coma Cros, 17190 Salt, Girona proposed as executive
-        producer in association with ARTE France, BR and the NFB, a multimedia
-        program available on the Internet at URL http://www.umbraexperience.com
-        composed of a series of interactive and participatory documentaries
-        produced by Brett GAYLOR (hereinafter the “Site”).<br />
-        <br />
-        The company, Umbra, is editor of this Site.The Site is designed to
-        explore the "tracking" universe, that is to say the collection of
-        personal data and targeting of Internet users, and allows Internet users
-        to discover, through participatory experiences the ways in which their
-        personal data is used.<br />
-        <br />The present document is intended to define the general terms and
-        conditions applicable to the Site and for participating Internet
-        users.<br />
-        <br />Anyone who wishes to participate in the experiment claims to have
-        previously read and expressly accepted these general terms and
-        conditions (hereinafter “GTC”).
+        <p>
+          La presente Política de Privacidad establece los términos en que umbra
+          usa y protege la información que es proporcionada por sus usuarios al
+          momento de utilizar su sitio web. Este proyecto está comprometido con
+          la seguridad de los datos de sus usuarios. Cuando le pedimos llenar
+          los campos de información personal con la cual usted pueda ser
+          identificado, lo hacemos asegurando que sólo se empleará de acuerdo
+          con los siguientes términos.
+        </p>
+        <p>
+          Nuestro sitio web podrá recoger información personal, por ejemplo:
+          Nombre, situación geográfica y año de nacimiento información
+          demográfica. Umbra emplea la información con el fin de proporcionar el
+          mejor servicio posible, particularmente para crear una mayor
+          experiencia inmersita y mejorar nuestro servicio. Estamos altamente
+          comprometido para cumplir con el compromiso de mantener su información
+          segura.
+        </p>
+        <p>
+          Una cookie se refiere a un fichero que es enviado con la finalidad de
+          solicitar permiso para almacenarse en su ordenador, al aceptar dicho
+          fichero se crea y la cookie sirve entonces para tener información
+          respecto al tráfico web, y también facilita las futuras visitas a una
+          web recurrente. Nuestro sitio web no emplea las cookies para poder
+          identificar las páginas que son visitadas y su frecuencia.
+        </p>
+        <p>
+          Este sitio web contiene enlaces a otros sitios que pudieran ser de su
+          interés. Una vez que usted de clic en estos enlaces y abandone nuestra
+          página, ya no tenemos control sobre al sitio al que es redirigido y
+          por lo tanto no somos responsables de los términos o privacidad ni de
+          la protección de sus datos en esos otros sitios terceros. Dichos
+          sitios están sujetos a sus propias políticas de privacidad por lo cual
+          es recomendable que los consulte para confirmar que usted está de
+          acuerdo con estas.
+        </p>
+        <p>
+          Este proyecto no venderá, cederá ni distribuirá la información
+          personal que es recopilada sin su consentimiento, salvo que sea
+          requerido por un juez con un orden judicial.
+        </p>
       </h3>
       <nav class="navbar">
         <ul>
@@ -74,9 +97,9 @@ h3 {
 
 .textspace {
   margin-right: 16.93rem;
-  margin-top: 1.9rem;
+  margin-top: -1.5rem;
   float: right;
-  height: 39rem;
+  height: 41rem;
   width: 42rem;
   padding: 3px;
 }
@@ -86,7 +109,7 @@ h3 {
   overflow: auto;
 }
 
-.navbar ul{
+.navbar ul {
   display: flex;
   margin-left: 0.8rem;
   margin-top: 3.2rem;
@@ -116,36 +139,53 @@ h1 {
   color: #f5f9fb;
 }
 
-@media screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) and (min-width: 400px) {
   h1 {
-    font-size: 3.1rem;
-    margin-top: 3.3rem;
+    font-size: 2.2rem;
+    margin-top: 3.5rem;
     margin-left: 3rem;
   }
-}
-
-@media screen and (max-width: 450px) {
   h3 {
-    font-size: 0.9rem;
-    margin-top: -1rem;
-
+    font-size: 0.875rem;
   }
-}
-
-@media screen and (max-width: 450px) {
   .text {
-    height: 20rem;
-    width: 19rem;
-    margin-top: -3rem;
-    margin-left: 39.8rem;
-    overflow: hidden;
-
+    height: 37rem;
+    width: 17rem;
+    margin-top: 0.5rem;
+    margin-left: 39.7rem;
+    
   }
-}
-
-@media screen and (max-width: 450px) {
   li {
     font-size: 1.3rem;
   }
+  .navbar {
+    display: none;
+  }
 }
+
+@media only screen and (max-width: 399px) and (min-width: 300px) {
+  h1 {
+    font-size: 2.2rem;
+    margin-top: 3.5rem;
+    margin-left: 2.5rem;
+  }
+  h3 {
+    font-size: 0.875rem;
+  }
+  .text {
+    height: 27rem;
+    width: 16rem;
+    margin-top: 1rem;
+    margin-left: 41.4rem;
+    padding: 0rem;
+  }
+  li {
+    font-size: 1.3rem;
+  }
+  .navbar {
+    display: none;
+  }
+}
+
+
 </style>
